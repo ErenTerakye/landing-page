@@ -135,7 +135,7 @@ a {
 
 .sign-up {
     display: flex;
-    margin: 64px 15vw;
+    margin: 96px 15vw;
     justify-content: center;
     align-items: center;
     gap: 216px;
@@ -152,4 +152,11 @@ a {
     border-radius: 8px;
     padding: 4px 32px;
     color: #F9FAF8;
+}
+
+.footer {
+    padding: 24px;
+    text-align: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
 }
