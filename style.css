@@ -108,3 +108,8 @@ a {
     width: 200px;
     text-align: center;
 }
+
+.content-top h2 {
+    font-size: 36px;
+    color: #1F2937;
+}
