@@ -88,6 +88,7 @@ a {
     justify-content: center;
     align-items: center;
     padding: 24px 15vw;
+    padding-bottom: 128px;
 }
 
 .container {
@@ -112,4 +113,43 @@ a {
 .content-top h2 {
     font-size: 36px;
     color: #1F2937;
+}
+
+.content-bottom {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 80px 20vw;
+}
+
+.quote {
+    font-weight: 300;
+    font-style: italic;
+    font-size: 36px;
+}
+
+.person {
+    align-self: flex-end;
+    font-size: 16px;
+}
+
+.sign-up {
+    display: flex;
+    margin: 64px 15vw;
+    justify-content: center;
+    align-items: center;
+    gap: 216px;
+    background-color: #3882F6;
+    padding: 16px;
+    border-radius: 8px;
+    color: #F9FAF8;
+}
+
+.sign-up button {
+    flex-shrink: 0;
+    background-color: #3882F6;
+    border: 2px solid #F9FAF8;
+    border-radius: 8px;
+    padding: 4px 32px;
+    color: #F9FAF8;
 }
